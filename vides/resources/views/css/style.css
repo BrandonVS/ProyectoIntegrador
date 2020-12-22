@@ -1,0 +1,132 @@
+/*----------------------------------------------------------------------------------
+General
+----------------------------------------------------------------------------------*/
+.title{
+    font-weight: 550;
+}
+
+
+a{
+    color: #000000;
+    text-decoration:none;
+}
+/*----------------------------------------------------------------------------------
+body
+----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------
+Header Layout
+----------------------------------------------------------------------------------*/
+header{
+    background-color: #ffffff;
+}
+.dimensionPar{
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+}
+
+.menu{
+    font-size: 15px;
+}
+
+.menuUser{
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+/*----------------------------------------------------------------------------------
+Footer Layout
+----------------------------------------------------------------------------------*/
+
+footer{
+    position: absolute;
+    text-align: center;
+    padding-top: 5%;
+}
+
+footer img {
+    width: 10%;
+    filter: invert();
+    padding-top: 12px;
+}
+
+.card .card-body{
+    background-color: #2F2D2D;
+    color: #ffffff;
+    border: none;
+}
+.imageSocialWeb{
+    padding-top: 5%;
+}
+.contacImagen{
+    width: 5%;
+}
+/*----------------------------------------------------------------------------------
+Index
+----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------
+header
+----------------------------------------------------------------------------------*/
+
+.indexTitle{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10%;
+}
+.indexTitle h1{
+    font-size: 50px;
+}
+
+.indexTitle h2{
+    font-size: 40px;
+}
+
+.showGraphs{
+    padding-top: 120px;
+    /*background-color:#F6E7D3;*/
+}
+
+.showGraphs .imageGraphs{
+    width: 90%;
+}
+
+img{
+    border-radius: 30px;
+}
+
+.spaceGraphs{
+    display: inline-block;
+    text-align: center;
+    background-color: beige;
+}
+
+.showGraphs .moreInformation{
+    width: 60%;
+}
+.showGraphs article{
+    background-color: #fff;
+    border-radius: 30px;
+    border: none !important;
+}
+.test{
+    background: #000;
+}
+
+
+/*aside
+*/
+
+/*media query
+*/
