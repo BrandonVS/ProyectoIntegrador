@@ -4,100 +4,70 @@
 
 @section('content')
 
-<!-- Hoteles -->
+    <section class="page-name">
+        <div class="position-title">
+            <h1>
+                Vides: Repositorio Dinamico de Hoteleria<br>
+            </h1>
 
-    <div class="hoteles | border border-light">
+        </div>
+        
+        <div class="video-index">
+            <video src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/video/videoInicio.m4v" autoplay loop muted></video>    
+        </div>
+        
+    </section>
+    <!-- Hoteles -->
+    <section class="container-principal shadow-box">
+        <h2>Hoteleria</h2>
+        <div class="index-hospitality" >
+            <article class="article-hospitality">
+                <h3>Ocupacion de Hoteles</h3>
+                <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/exampleImage2.PNG" alt="Image1">
+                <a  class="button" href="#">Mas detalles</a>
+            </article>
+            <article class="article-hospitality">
+                <h3>Ocupacion de Hoteles</h3>
+                <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/exampleImage2.PNG" alt="Image1">
+                <a class="button" href="#">Mas detalles</a>
+            </article>
+            <article class="article-hospitality">
+                <a class="link-index" href="#">
+                    <h3>Ocupacion de Hoteles</h3>
+                    <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/moreInformation.PNG" alt="Image1">
+                </a>
+            </article>
+        </div>
+    </section>
+    <div class="collage">
+        <img class= "img1" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage3.jpg" alt="">
+        <img class= "img2" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage2.jpg" alt="">
+        <img class= "img3" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage4.jpg" alt="">
+        <img class= "img4" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage5.jpg" alt="">
+        <img class= "img5" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage6.jpg" alt="">
+        <img class= "img6" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/collage/collage7.jpg" alt="">
     </div>
     
-    <section class="container | indexTitle">
-        <h1 class= "title">Vides: Repositorio Dinamico de Hoteleria</h1>
-    <h2 class= "title">Hoteles Loja</h2>
-    </section>
-        <section class= "container | showGraphs"> 
-        <div class=" row justify-content-md-center ">
-            <article class="spaceGraphs col-4 col-md-4 border">
-                <h3 class= "title">Ocupacion de Hoteles</h3>
-                <img class="imageGraphs" src="/proyecto5Ciclo/blog/resources/views/img/home/exampleImage1.PNG" alt="Image1">
-                <div class="dropdown">
-                    <button class="btn | btn-secondary | dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mes: Enero
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">>
-                        <li class="dropdown-item" href="#">Enero</li>
-                        <li class="dropdown-item" href="#">Febrero</li>
-                        <li class="dropdown-item" href="#">Marzo</li>
-                        <li class="dropdown-item" href="#">Abril</li>
-                    </ul>
-                </div>
+    <Section class="container-principal shadow-box">
+        <h2>Zonas de Interes</h2>
+        <div class="index-hospitality">
+            <article class="article-hospitality">
+                <h3>Parques</h3>
+                <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/exampleImage2.PNG" alt="Image1">
+                <a class="button" href="#">Mas detalles</a>
             </article>
-            <article class="spaceGraphs | col-4 col-md-4 | border">
-                <h3 class= "title">distribucion de Huespedes</h3>
-                <img class="imageGraphs" src="/proyecto5Ciclo/blog/resources/views/img/home/exampleImage2.PNG" alt="Image2">
-                <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mes: Enero
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">>
-                    <li class="dropdown-item" href="#">Enero</li>
-                    <li class="dropdown-item" href="#">Febrero</li>
-                    <li class="dropdown-item" href="#">Marzo</li>
-                    <li class="dropdown-item" href="#">Abril</li>
-                </ul>
-            </div>
+            <article class="article-hospitality">
+                <h3>Monumentos</h3>
+                <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/exampleImage2.PNG" alt="Image1">
+                <a class="button" href="#">Mas detalles</a>
             </article>
-            <article class="spaceGraphs | col-4  | border">
-                <a href="#moreInformation">
-                <h3 class= "title">Mas Informacion</h3>
-                <img class="moreInformation" src="/proyecto5Ciclo/blog/resources/views/img/home/moreInformation.PNG" alt="Image3">
+            <article class="article-hospitality">
+                <a class="link-index" href="#">
+                    <h3>Ocupacion de Hoteles</h3>
+                    <img class="imageGraphs" src="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/img/home/turismMoreInformation.PNG" alt="Image1">
                 </a>
-            </div>
             </article>
         </div>
-        <!---------------------------------------- Second Block -------------------------------------->
-        <div class= "Turismo">
-            <section class="container | indexTitle">
-                <h2 class= "title">Lugares Turisticos</h2>
-            </section>
-        </div>
-        <section class= "container | showGraphs "> 
-            <div class=" row justify-content-md-center ">
-                <article class="spaceGraphs col-4 col-md-4 border">
-                    <h3 class= "title">Lugares Populares</h3>
-                    <img class="imageGraphs" src="/proyecto5Ciclo/blog/resources/views/img/home/exampleImage1.PNG" alt="Image3">
-                    <div class="dropdown">
-                        <button class="btn | btn-secondary | dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                            Mes: Enero
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">>
-                            <li class="dropdown-item" href="#">Enero</li>
-                            <li class="dropdown-item" href="#">Febrero</li>
-                            <li class="dropdown-item" href="#">Marzo</li>
-                            <li class="dropdown-item" href="#">Abril</li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="spaceGraphs | col-4 col-md-4 | border">
-                    <h3 class= "title">Horarios de Atencion</h3>
-                    <img class="imageGraphs" src="/proyecto5Ciclo/blog/resources/views/img/home/exampleImage2.PNG" alt="Example Image 1">
-                    <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                        Mes: Enero
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">>
-                        <li class="dropdown-item" href="#">Enero</li>
-                        <li class="dropdown-item" href="#">Febrero</li>
-                        <li class="dropdown-item" href="#">Marzo</li>
-                        <li class="dropdown-item" href="#">Abril</li>
-                    </ul>
-                </div>
-                </article>
-                <article class="spaceGraphs | col-4  | border">
-                    <h3 class= "title">Mas Informacion</h3>
-                    <a href="#moreInformation">
-                    <img class="moreInformation" src="/proyecto5Ciclo/blog/resources/views/img/home/turismMoreInformation.PNG" alt="Example Image 1">
-                    </a>
-                </div>
-                </article>
-            </div>
-    </section>
+    </Section>
+
 @endsection()

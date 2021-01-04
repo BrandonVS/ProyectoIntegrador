@@ -3,80 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/css/style.css">
     <title>@yield('title')</title>
-    <!-- favicon -->
-    
-    <!-- Estilos -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/proyecto5Ciclo/blog/resources/views/css/style.css">
-
-    
 </head>
 <body>
-<!-- header -->
-<header class="header">
-    <!--Nav General-->
-<div class= "contenedor">
-  <nav class="navbar | navbar-expand-lg | dimensionPar  position-fixed w-100">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img class="logo" src="/proyecto5Ciclo/blog/resources/views/img/logo2.jpeg" alt="videLogo">  
-            Vides
-        </a>
-        <div class="collapse navbar-collapse dimensionPar menu " id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-            <a class="nav-link active"href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active" href="#">Hoteles</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link active" href="#">Zonas turisticas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active"href="#">Login</a>
-              </li>
-              <li class="nav-item">
-              <a class="nav-link active" href="#">Help</a>
-              </li>
-        </ul>
+    <header class="headerLayout">
+        <div class="logo">
+            V
         </div>
-    </div>
-    </nav>
-  </div>
-</header> 
-    
+        <nav class="principal-nav">
+            <a href="index.html">Home</a>
+            <a href="#">Hotels</a>
+            <a href="#">Places</a>
+            <a href="/proyecto5Ciclo/proyectoIntegrador/vides/resources/views/auth/login.blade.php">Login</a>
+            <a href="#">Help</a>
+        </nav>
+    </header>
     @yield('content')
-    <!-- footer -->
-<footer class=" footer navbar | navbar-inverse | navbar-fixed-bottom | navbar-expand-lg">
-  <div class="card-group col-12">
-    <div class="card col-3 ">
-      <div class="card-body">
-        <h5 class="card-title">Contactos</h5>
-        <img src="/proyecto5Ciclo/blog/resources/views/img/email-solid.svg" class="contacImagen" alt=""> email: example@gmail.com<br>
-        <img src="/proyecto5Ciclo/blog/resources/views/img/phone-solid.svg" class="contacImagen"alt=""> Cel: 07 370 1444<br>
-        <img src="/proyecto5Ciclo/blog/resources/views/img/phone-solid.svg" class="contacImagen"alt=""> Tef: 1800 8875 88
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title text-center">Misk'y</h5>
-        <img src="/proyecto5Ciclo/blog/resources/views/img/github.svg" alt="">
-        <p class="card-text">Tu ideas, nosotros lo creamos</p>
-      </div>
-  </div>
-  <div class="card col-3 ">
-    <div class="card-body">
-      <h5 class="card-title">Redes Sociales</h5>
-      <img src="/proyecto5Ciclo/blog/resources/views/img/facebook-brands.svg" class="imageSocialWeb" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="/proyecto5Ciclo/blog/resources/views/img/instagram-brands.svg" class="imageSocialWeb" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;
-      <img src="/proyecto5Ciclo/blog/resources/views/img/github.svg" class="imageSocialWeb" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;
-    </div>
-  </div>
-    </div>
-</footer>
-    <!-- script -->
+    <footer class="principal-footer">
+        <article class="principal-article">
+            <div class="content-article">
+                <h3> Contactos</h3>
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="3 7 12 13 21 7" />
+                    </svg>
+                    <b>Email: </b> ayuda.vides@gmail.com</p>
+            </div>
+            <div class="content-article">
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                    <path d="M15 7a2 2 0 0 1 2 2" />
+                    <path d="M15 3a6 6 0 0 1 6 6" />
+                    </svg>
+                    <b>Telf: </b> 07 370 1440</p>
+            </div>
+            <div  class="content-article">
+                <p><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-mobile" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="7" y="4" width="10" height="16" rx="1" />
+                    <line x1="11" y1="5" x2="13" y2="5" />
+                    <line x1="12" y1="17" x2="12" y2="17.01" />
+                    </svg>
+                    <b>Cel: </b> 1800 8875 88</p>
+            </div>
+            
+        </article>
+        <article class="principal-article">
+            <h3>Misk'y</h3>
+            <p>Tu ideas, Nosotros lo creamos</p>
+        </article>
+        <article class="principal-article">
+            <h3> Redes Sociales</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3" />
+                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+        </article>
+    </footer>
 </body>
 </html>

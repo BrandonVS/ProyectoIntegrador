@@ -10,8 +10,9 @@ class GraficaController extends Controller
         return view('index');
     }
 
-    public function create(){
+    public function welcome(){
 
+        return view('welcome');
     }
 
     public function show(){
