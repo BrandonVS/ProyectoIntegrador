@@ -1,8 +1,7 @@
 <?php
 
-use App\Http\Controllers\GraficaController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +13,26 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', HomeController::class);
+Route::get('/', function () {
+    return view('index');
+});
 
-Auth::routes();
+Route::get('hoteles', function () {
+    return "pipo";
+});
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('turismo', function () {
+    return "pagina de turismo";
+});
 
+Route::get('graphs-hotels', function () {
+    return "Aqui se haran las graficas";
+});
+
+Route::get('error', function () {
+    return "plantilla de erro";
+});
+
+Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
+    return view('dashboard');
+})->name('dashboard');
